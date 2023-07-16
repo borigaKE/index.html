@@ -1,0 +1,61 @@
+!DOCTYPE html>
+<html lang="en">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<head>
+    <title>TalkCenter | Professional Therapeutic Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">TalkCenter</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Therapist Jobs</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#"><button class="btn">Get Started</button></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="content">
+            <h1>We all deserve to be happy <br>by feeling better</h1>
+            <h3>Join our network today</h3>   
+            <div>
+                <button class="cn">Therapist</button>
+                <button class="cn">Patient</button>
+            </div>   
+            
+            <div class="form">
+                <h2>TalkCenter</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="bton"><a href="#">Sign in</a></button>
+                <p class="link"><a href="#">Forgot password?</a></p>
+
+                <p class="link2">Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+            <div class="form2">
+                <h2>Payment Partners</h2>
+
+            <div class="logos">
+                <ul>
+                    <li><img src="M-Pesa.png" alt=""></li>
+                    <li><img src="Airtel Money.jpg" alt=""></li>
+                    <li><img src="PayPal.png" alt=""></li>
+                    <li><img src="Vooma.jpg" alt=""></li>
+                    <li><img src="Skrill.png" alt=""></li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+    </div>             
+</body>
+</html>
