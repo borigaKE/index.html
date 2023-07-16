@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: auto;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: auto;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #04262b;
+    font-size: 35px;
+    font-family: Verdana;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.menu{
+    width: auto;
+    float: right;
+    height: auto;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: verdana;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #03272c;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #03272c;
+    border: 2px solid #03272c;
+    margin-top: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(105%);
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:snow;
+    top: 20%;
+    position: relative; 
+    text-align: center;
+}
+
+.content h1{
+    font-family: cursive;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.content h3{
+    font-family: Times New Roman;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color:skyblue;
+    margin-top: 20px;
+}
+
+.cn{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color:whitesmoke;
+    border: 2px solid #009688;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.cn:hover{
+    background-color: #009688;
+    border: none;
+}
+
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -70px;
+    left: 1070px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    font-family: 'BlinkMacSystemFont';
+    text-align: center;
+    color:darkgray;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #009688;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.bton{
+    width: 240px;
+    height: 40px;
+    background: #009688;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: o.4s ease;
+}
+
+.bton:hover{
+    background: darkseagreen;;
+}
+
+.bton a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none; 
+    color:royalblue;
+}
+
+.form .link2{
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    color:darkgray;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.form .link2 a{
+    text-decoration: none; 
+    font-weight: bold;
+    color:darkcyan;
+}
+
+.form2{
+    width: 100% !important;
+    height: 105px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    text-align:center;
+    margin-left: auto;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    margin-top: 100pt !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.form2 h2{
+    padding-left: 12px;
+    padding-top: 5px;
+    color: aquamarine;
+}
+
+.logos img{
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.logos li{
+    display: inline-block;
+    margin-top: 1%;
+    padding-left: 42px;
+}
